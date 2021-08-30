@@ -1,0 +1,26 @@
+.birthday_card{
+    background-color: #5438DC;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      border-radius: 50px;
+      width: 60%;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      display: flex;
+      flex-direction: row;
+      margin:12px;
+      color: white;
+    }
+    .birthday_card div{
+      flex-grow: 5;
+    }
+    .birthday_card div h1{
+      font-size:5em;
+    }
+    .birthday_card button{
+      flex-grow: 1;
+      background:none;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border:none;
+      padding: 32px;
+      border-radius: 50px;
+    }

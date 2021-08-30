@@ -1,0 +1,30 @@
+.title{
+    font-size:1em;
+
+}
+
+.container{
+    padding:12px 24px;
+
+}
+.container p{
+    color:gray;
+    padding: 0px;
+}
+.container h2{
+    padding: 0px;
+}
+.wrapper_vertical{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper_horizontal{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.divider{
+    width:300px;
+    height:2px;
+    background-color: #e3e3e3;
+}
